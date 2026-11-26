@@ -1,0 +1,12 @@
+***** ARQUIVO DE DADOS LEGADO - FORMATO COBOL ******
+* Registro 1: Cliente ativo no sistema legado
+00000001 FULANO       0000001234
+* Registro 2: Cliente com valor diferente
+00000002 BELTRANO     0000005678
+* Registro 3: Cliente duplicado (irá aparecer novamente)
+00000003 CICLANO     0000009012
+* Registro 4: Novo cliente na base moderna
+00000004 DELTRANO    00003456
+* Registro 5: Inconsistência de nome (FULANO vs FULANA)
+00000005 FULANO      0000001234
+***** FIM DO ARQUIVO COBOL ******
