@@ -1,0 +1,14 @@
+-- SQLite Database Sample for CobRecon
+-- Base de dados moderna com alguns registros
+
+CREATE TABLE IF NOT EXISTS modern_records (
+    id INTEGER PRIMARY KEY,
+    name TEXT,
+    value INTEGER
+);
+
+INSERT OR IGNORE INTO modern_records VALUES (1, 'FULANO', 1234);
+INSERT OR IGNORE INTO modern_records VALUES (2, 'BELTRANO', 5678);
+INSERT OR IGNORE INTO modern_records VALUES (3, 'CICLANO', 9012);
+INSERT OR IGNORE INTO modern_records VALUES (4, 'DELTRANO', 3456);
+INSERT OR IGNORE INTO modern_records VALUES (5, 'OUTRO', 9999);
